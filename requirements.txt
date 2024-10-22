@@ -2,3 +2,7 @@ pandas
 numpy
 gdown
 inflection
+matplotlib
+plotly
+seaborn
+scikit-learn
