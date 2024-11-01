@@ -78,7 +78,7 @@ A companhia aérea deseja aumentar o número de adesões ao programa de fidelida
 - **Campanhas de Referência:** Incentivos para clientes que indicam amigos ao programa de fidelidade.
 
 ### Conclusão
-O projeto fornece uma solução eficaz para o time comercial da companhia aérea otimizar as abordagens com clientes, aumentar as taxas de adesão ao programa de fidelidade e maximizar a receita esperada. Com os insights obtidos, o time de marketing pode agora personalizar as campanhas e maximizar o impacto dos esforços comerciais.
+O projeto fornece uma solução eficaz para o time comercial da companhia aérea otimizar as abordagens com clientes, aumentar as taxas de adesão ao programa de fidelidade e maximizar a receita esperada. Com os insights obtidos, o time de marketing pode agora personalizar as campanhas e maximizar o impacto dos esforços comerciais. Deploy do projeto disponivel no [Link](https://customer-loyalty-program.streamlit.app/)
 
 ---
 
@@ -109,4 +109,4 @@ Identify the probability of each customer subscribing to a specific loyalty tier
 - **Personalized Benefits:** Tailored offers for each membership level.
 - **Seasonal Offers:** Promotions during specific periods to increase membership sign-ups.
 
-This project equips the sales and marketing teams with precise insights to improve loyalty program conversion rates and revenue, paving the way for more efficient customer engagement and retention.
+This project equips the sales and marketing teams with precise insights to improve loyalty program conversion rates and revenue, paving the way for more efficient customer engagement and retention. Project deployment available on [Link](https://customer-loyalty-program.streamlit.app/)
