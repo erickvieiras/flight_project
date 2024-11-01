@@ -10,14 +10,14 @@ st.set_page_config(layout="wide", initial_sidebar_state="collapsed")
 st.title('Otimização de ofertas comerciais de passagens aéreas')
 
 # Carregar dados
-df_raw = pd.read_csv('../data/flight_data.csv')
+df_raw = pd.read_csv('data/flight_data.csv')
 df = data_cleaning(df_raw)
 
-df2 = pd.read_csv('../data/flight_.csv')
+df2 = pd.read_csv('data/flight_.csv')
 df2 = df2[df.columns]
 
 # Carregar o classificador
-with open('../model/decision_tree.pkl', 'rb') as file:
+with open('model/decision_tree.pkl', 'rb') as file:
     classifier = pickle.load(file)
 
 # Carregar scalers  
@@ -33,7 +33,7 @@ scaler_files = [
 for scaler_file in scaler_files:
     feature_name = scaler_file.replace('_scaler.pkl', '')
     try:
-        with open(f'../model/encoder/{scaler_file}', 'rb') as file:
+        with open(f'model/encoder/{scaler_file}', 'rb') as file:
             scalers[feature_name] = pickle.load(file)
     except FileNotFoundError:
         st.warning(f"O scaler '{scaler_file}' não foi encontrado.")
